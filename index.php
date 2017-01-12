@@ -1,5 +1,6 @@
 <?php
-
+$newConfig = $_SERVER['HTTP_HOST'];
+$_SESSION['alexUser'] = str_replace('.','',$newConfig);
 /*
  * This file is part of Flarum.
  *
